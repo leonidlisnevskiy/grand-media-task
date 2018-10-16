@@ -9,20 +9,10 @@
     <meta name="theme-color" content="#fff"/>
     <meta name="format-detection" content="telephone=no"/>
     <link rel="stylesheet" media="all" href="css/app.css"/>
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     {# {% include "../partials/_media-tags.html" %} #}
   </head>
   <body>
-
-    <!-- BEGIN content -->
-    <div class="out">
-      {% block content %}{% endblock %}
-    </div>
-    <!-- END content -->
-
-    <!-- BEGIN scripts -->
-    <script src="js/app.js"></script>
-    <!-- END scripts -->
-
+    {% block content %}{% endblock %}
   </body>
 </html>
