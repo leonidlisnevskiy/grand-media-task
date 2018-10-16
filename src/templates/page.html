@@ -1,0 +1,67 @@
+---
+title: Grand Media test task
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+<div class="video-wrapper">
+	<video width="100" height="360" autoplay loop poster="../video/test.jpeg">
+	  <source src="../video/test.mp4" type="video/mp4">
+	  <source src="../video/test.webm" type="video/webm">
+	  <source src="../video/test.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	</video>
+</div>
+<!-- END .video-wrapper -->
+
+<h1 class="title_lg title-main">Lorem ipsum dolor.</h1>
+
+<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="gag">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut ex sapien. Fusce tempor leo leo, a dictum sem tincidunt vitae. Integer id lorem sit amet sapien dignissim ultrices. Nam porttitor posuere lorem, feugiat cursus diam finibus hendrerit.</p>
+					</div>
+				</div>
+
+				<div class="col">
+					<form action="/" class="form">
+						<div class="form-field">
+							<label>
+								<span class="label">Введите Ваше имя</span>
+								<input type="text" class="input" placeholder="User Name" required="required">
+							</label>
+						</div>
+
+						<div class="form-field">
+							<label>
+								<span class="label">Введите номер телефона</span>
+								<input type="tel" class="input" placeholder="User Phone" required="required">
+							</label>
+						</div>
+
+						<div class="form-field">
+							<label>
+								<span class="label">Введите Ваш e-mail</span>
+								<input type="email" class="input" placeholder="User Email" required="required">
+							</label>
+						</div>
+
+						<div class="form-field">
+							<button class="btn" type="submit">Send</button>
+						</div>
+					</form
+>				</div>
+			</div>
+		</div>
+</div>
+<!-- END .content -->
+
+<footer class="footer">
+	<div class="container">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	</div>
+</footer>
+<!-- END .footer -->
+{% endblock %}
