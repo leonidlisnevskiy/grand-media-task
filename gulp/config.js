@@ -8,6 +8,7 @@ var config = {
     production: production,
 
     src: {
+        video       :'src/video',
         root         : 'src',
         templates    : 'src/templates',
         templatesData: 'src/templates/data',
@@ -37,7 +38,8 @@ var config = {
         img  : destPath + '/img',
         fonts: destPath + '/fonts',
         lib  : destPath + '/lib',
-        data : destPath + '/data'
+        data : destPath + '/data',
+        video:destPath + '/video'
     },
 
     setEnv: function(env) {
